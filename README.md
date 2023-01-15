@@ -5,7 +5,7 @@ Este compilador realiza a análise léxica, sintática e semântica do código-f
 
 
 # Compilação do Compilador C-
-Para realizar a compilação do COmpilador C- é necessário primeiramente executar o Yacc/Bison e o Flex a fim de gerar os arquivos em C do Analisador Léxico e Analisador Sinático.
+Para realizar a compilação do Compilador C- é necessário primeiramente executar o Yacc/Bison e o Flex a fim de gerar os arquivos em C do Analisador Léxico e Analisador Sinático.
 Após a criação dos analisadores mencionados, é realizada a compilação dos arquivos.
 
 Comandos para criação do Compilador C- "cminus"
