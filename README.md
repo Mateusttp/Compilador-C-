@@ -17,3 +17,11 @@ gcc -o cminus *.o
 ```
 
 Cabe notar que o esse projeto foi desenvolvido no Windows e foi necessário a definição de uma macro ``` #define yywrap() 1``` a fim de compilar no Windows sem a necessiadade de colocar a flag ```-lfl``` no comando de compilação do GCC.
+
+# Uso do Compilador C-
+O compilador recebe como argumento um arquivo de entrada contendo o código fonte a ser compilado e, opcionalmente, um segundo argumento indicando o arquivo a ser salvo a saída da compilação. Caso o arquivo de saída não seja fornecido o compilador irá imprimir a saída da compilação na própria linha de comando.
+
+Comando para execução no Windows:
+```
+./cminus.exe <INPUT_FILE> <OPCIONAL_OUTPUT_FILE>
+```
